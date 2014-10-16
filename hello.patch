@@ -1,0 +1,11 @@
+--- hello.c	2014-10-16 19:31:22.605535683 +0200
++++ hello-new.c	2014-10-16 19:33:10.338023835 +0200
+@@ -1,6 +1,7 @@
+ #include <stdio.h>
+ 
+-main(){
++int main(void){
+ 	printf("Hello, world!\n");
++	return 0;
+ }
+ 
